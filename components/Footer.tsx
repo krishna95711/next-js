@@ -1,20 +1,20 @@
-
 const Footer = () => (
   <section className="py-5 px-8 border-t border-nav-border gap-4">
     <footer className="">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <div className="flex justify-center text-teal-600">
-  <div className="grid grid-cols-1 items-center">
-    <img
-      className="w-28 h-16 mb-2"
-      src="https://www.svgrepo.com/show/71758/sharing-connections.svg"
-      alt=""
-    />
+        <div className="flex justify-center text-teal-600">
+          <div className="grid grid-cols-1 items-center">
+            <img
+              className="w-28 h-16 mb-2"
+              src="https://www.svgrepo.com/show/71758/sharing-connections.svg"
+              alt=""
+            />
 
-    <p className="text-3xl font-bold text-gray-800 font-serif">Share It</p>
-  </div>
-</div>
-
+            <p className="text-3xl font-bold text-gray-800 font-serif">
+              Share It
+            </p>
+          </div>
+        </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500"></p>
 
@@ -162,9 +162,11 @@ const Footer = () => (
               </svg>
             </a>
           </li>
-
-          
         </ul>
+        <div className="mt-16 text-center text-gray-500">
+          &copy; 2022 Share It. All rights reserved kishan daaby.
+        </div>
+
       </div>
     </footer>
   </section>
