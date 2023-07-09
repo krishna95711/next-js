@@ -13,15 +13,15 @@ const Navbar = async () => {
 
   return (
     <nav className="flexBetween navbar ">
-      <div className="flex-1 flexStart gap-3 sm:gap-14 md:gap-25 xl:gap-44">
+      <div className="flex-1 flexStart gap-6 xl:gap-96">
         <Link href="/">
           <Image src="/logo.svg" width={116} height={43} alt="logo" />
         </Link>
-        <ul className="xl:flex text-sm gap-7 ">
+        <ul className="flex text-sm gap-5 xl:gap-10">
           {NavLinks.map((link) => (
             <Link href={link.href} key={link.text} legacyBehavior>
               <a
-                className="font-semibold text-gray-600 hover:text-gray-900 transition-colors duration-300"
+                className="font-semibold text-gray-600 hover:text-green-700 transition-colors duration-300"
               >
                 {link.text}
               </a>
