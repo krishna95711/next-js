@@ -1,3 +1,4 @@
+
 import { GraphQLClient } from "graphql-request";
 
 import { createProjectMutation, createUserMutation, deleteProjectMutation, updateProjectMutation, getProjectByIdQuery, getProjectsOfUserQuery, getUserQuery, projectsQuery } from "@/graphql";
